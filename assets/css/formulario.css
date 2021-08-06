@@ -1,0 +1,54 @@
+@import url("../css/estilo.css");
+
+
+.secao02 .container-fluido{
+   max-width: 550px;
+   margin: 0 auto;
+   padding: 100px 2% 0 2%;
+   
+}
+.secao02 .formulario .form-wrap:nth-child(2){
+   display: flex;
+   gap:10px;
+}
+.formulario .form-wrap .form-50{
+   width: 100%;
+}
+.formulario .form-wrap textarea{
+   width: 100%;
+   height: 170px;
+   padding: 15px;
+   border: 0;
+   border-radius: 10px;
+   resize:none;
+   outline: none;
+   font-family: var(--poppins);
+   font-size: 16px;
+}
+
+.formulario .form-wrap button{
+   background-color:var(--verde-claro);
+}
+.formulario .form-wrap button:hover{
+   background-color: var(--azul-marinho);
+}
+
+
+@media screen and (max-width:900px) {
+   
+   .secao02 .container-fluido{
+      padding: 50px 2%;
+   }
+
+}
+@media screen and (max-width:470px) {
+   
+   .secao02 .formulario .form-wrap:nth-child(2){
+      display: block;
+      gap: inherit;
+   }
+   .formulario .form-wrap .form-50:not(:last-child){
+      margin-bottom: 10px;
+   }
+
+}

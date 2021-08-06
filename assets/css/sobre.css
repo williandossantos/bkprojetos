@@ -1,0 +1,35 @@
+@import url("../css/estilo.css");
+
+.sobre{
+   padding:  3% 2%;
+}
+
+.sobre-img{
+   max-width: 500px;
+   height:auto;
+   margin: 0 auto;
+}
+.sobre-img > img{
+   width: 100%;
+   height: 100%;
+}
+.sobre .sobre-conteudo{
+   background-color:#c4d0d646 ;
+   padding: 12px;
+   max-width: 600px;
+   margin: 10px auto 0 auto;
+
+}
+.sobre-conteudo h2{
+   padding: 10px 0;
+   margin-bottom: 10px;
+   text-align: center;
+   background-color:#c4d0d698 ;
+}
+.sobre .sobre-conteudo p{
+   text-indent: 30px;
+   font-weight: 400px;
+   text-align: justify;
+   font-size: 16px;
+   font-family: var(--poppins);
+}
